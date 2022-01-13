@@ -1,0 +1,31 @@
+<!DOCTYPE html></div>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+    <title>Profile Card</title>
+</head>
+<body>
+    
+    
+
+    <my-profile id='counter' count="Pedro Rodriguez"></my-profile>
+    <script src="./profile.js"></script>
+    <br>
+    <button onClick="update()">Reset settings</button>
+
+
+    <script>
+        function update(){
+        let counter = document.querySelector('#counter')
+        counter.setAttribute('count', "Pedro Rodriguez")
+        }
+    </script>
+    
+</body>
+</html>
